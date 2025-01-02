@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "mykoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "koa": "^2.14.1",
+    "portfinder": "^1.0.32"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa__router": "^12.0.4",
+    "prettier": "3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
